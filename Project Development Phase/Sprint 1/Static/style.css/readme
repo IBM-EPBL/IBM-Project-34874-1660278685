@@ -1,0 +1,113 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Times New Roman;
+}
+
+.login {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+a {
+ text-decoration: none;
+}
+li {
+ list-style: none;
+}
+.navbar {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px;
+ background-color: black;
+ color: #fff;
+}
+.nav-links a {
+ color: #fff;
+}
+/* LOGO */
+.logo {
+ font-size: 32px;
+}
+/* NAVBAR MENU */
+.menu {
+ display: flex;
+ gap: 1em;
+ font-size: 18px;
+}
+.menu li:hover {
+ background-color: gray;
+ border-radius: 3px;
+ transition: 0.5s ease;
+}
+.menu li {
+ padding: 5px 14px;
+}
+
+body{
+	background: white;
+	background-size: cover;
+	color: #000000;
+}
+
+.registration-form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 450px;
+}
+
+.registration-form h1 {
+	font-size: 30px;
+	text-allign: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+
+.registration-form h2{
+	font-size: 40px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-15%,-80%);
+    margin: 10px 0;
+}
+
+.registration-form h3{
+	color: darkgreen;
+}
+
+.registration-form p {
+	font-size: 20px;
+	margin: 7px 0;
+	font-weight: bold;
+}
+
+.registration-form input {
+	font-size: 20x;
+	padding: 15px 10px;
+	width: 80%;
+	border: 20;
+	border-radius: 10px;
+	outline: none;
+	background-color: ghostwhite;
+	color: black;
+	font-weight: bold;
+}
+
+.registration-form button{
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 50%;
+	border: 10;
+	border-radius: 5px;
+	background-color: #000000;
+
+}
+
+.registration-form button:hover {
+        background: #0096FF ;
+}
